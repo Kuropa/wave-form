@@ -15,9 +15,9 @@
                         <div class="logo">
                             <img src="img/logo.svg" />
                         </div>
-                        <form class="login-form">
-                            <input type="text" id="login" class="login-field form-margin" autocomplete="off" placeholder="Login">
-                            <input type="password" id="password" class="passworg-field form-margin" placeholder="Password">
+                        <form action="/login" method="POST" class="login-form">
+                            <input type="text" id="login" class="login-field form-margin" name="login" autocomplete="off" placeholder="Login">
+                            <input type="password" id="password" class="password-field form-margin" name="password" placeholder="Password">
                             <a class="form-margin" href="https://i.ytimg.com/vi/woOWbKHzKVo/maxresdefault.jpg" target="_blank">I forgot my password</a>
                             <div class="form-margin">
                                 <label for="remember-user">remember me</label>
